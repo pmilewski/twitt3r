@@ -1,0 +1,122 @@
+.container {
+    width: 710px;
+}
+
+body {
+    background: #92cae4
+}
+
+header {
+    padding-top: 40px;
+}
+
+header img {
+
+    margin-bottom: -101px;
+    margin-left: 484px;
+    padding: 1em;
+    background: #507490;
+}
+
+section {
+    margin-top: 1em;
+    font-size: 120%;
+    padding: 20px;
+    background: #c2e1ef;
+}
+
+section h1 {
+    font-size: 200%;
+}
+
+/* Links */
+a {
+    color: #09c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #069;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #069;
+}
+
+/* Navigation */
+nav {
+    float: left;
+    margin-top: -15px;
+}
+
+nav {
+    background-color: #507490;
+    padding: 0 0.7em;
+    white-space: nowrap;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.2em 0;
+}
+
+nav ul li a {
+    padding: 0 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav ul li a:visited {
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #f5deb3;
+}
+
+/* Sign up button */
+
+a.signup_button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 190px;
+    color: #fff;
+    background: #507490;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 20px;
+}
+
+a.signup_button:hover {
+    color: #f5deb3;
+
+}
+/* Round corners */
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 22px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer nav {
+  float: none;
+}
